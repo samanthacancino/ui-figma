@@ -1,0 +1,18 @@
+.plans {
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 40px;
+    }
+
+    &__item {
+        background-color: white;
+        width: 30%;
+
+        &__header {
+            font-size: 28px;
+            
+        }
+    }
+}
